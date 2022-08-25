@@ -9,7 +9,8 @@ app.get('/', (req, res) => {
 
 app.get('/Product/FixedDescription', (req, res) =>{
     res.json({
-        
+        Product: "Gaming Computer",
+        Quantity: 2
     })
 });
 
